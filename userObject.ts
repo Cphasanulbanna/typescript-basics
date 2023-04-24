@@ -19,7 +19,7 @@ const myUser: User = {
 myUser.email = "hasanul#example.com";
 
 //chaning id will show error "cannot assign, bcz it is read only"
-myUser._id = "2"; // not possible , will show error
+// myUser._id = "2"; // not possible , will show error
 
 //mixing data types
 type cardNumber = {
