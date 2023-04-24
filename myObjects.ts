@@ -13,4 +13,21 @@ function getInfo(): { name: string; price: number } {
     return { name: "banna", price: 100 };
 }
 
+//[type alias] - declaring predefined types
+type User = {
+    name: string;
+    email: string;
+    isActive: boolean;
+};
+
+function addUser(user: User): User {
+    return user;
+}
+
+addUser({
+    name: "banna",
+    email: "banna@e.com",
+    isActive: true,
+});
+
 export {};
