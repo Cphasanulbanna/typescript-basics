@@ -8,4 +8,5 @@ var students = [];
 students.push("banna");
 var allUsers = [];
 allUsers.push({ name: "banna", isActive: false });
-console.log(allUsers);
+//array inside array
+var colors = [[255, 255, 255]];
