@@ -30,4 +30,12 @@ addUser({
     isActive: true,
 });
 
+//readonly keyword[we cannot manipulate varibale with readonly keyword]
+type NewUser = {
+    readonly _id: string;
+    name: string;
+    email: string;
+    isActive: boolean;
+};
+
 export {};
